@@ -1,0 +1,82 @@
+.Nav__Container{
+    background-color: #000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Nav__Container .Nav__Logo{
+    width: 45px;
+    height: 45px;
+    margin-left: 4%;
+}
+.Nav__Container .Nav__Logo .Logo-Grande{
+    height: 170px;
+    margin-top: -62px;
+}
+
+.Nav__Container .Nav__Logo .Logo-Chico{
+    height: 100%;
+    display: none;
+}
+
+.Nav__Container .Nav__Links{
+    position:absolute;
+    right: 3%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.Nav__Container .Nav__Links li a {
+    color: var(--color-white);
+    text-decoration: none;
+    margin: 15px;
+}
+
+.Nav__Container .Nav__Links li a:hover{
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+@media screen and (max-width: 570px) {
+    .Nav__Container .Nav__Logo .Logo-Grande{
+        display: none;
+    }
+    .Nav__Container .Nav__Logo .Logo-Chico{
+        display:inline;
+    }
+    .Nav__Container .Nav__Links li a{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Nav__Container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .Nav__Container .Nav__Logo{
+        margin-left: auto;
+    }
+    .Nav__Container .Nav__Logo .Logo-Grande{
+        display: inline;
+        margin-top: -52px;
+        margin-left: -220px;
+    }
+    .Nav__Container .Nav__Logo .Logo-Chico{
+        display:none;
+    }
+    .Nav__Container .Nav__Links{
+        position: relative;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+    .Nav__Container .Nav__Links li{
+        margin-top: 20px;
+    }
+}

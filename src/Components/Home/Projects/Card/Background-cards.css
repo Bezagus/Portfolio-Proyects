@@ -1,0 +1,48 @@
+.Pi-Food{
+    background: url('../../../../Assets/PI-Food.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+  }
+  .P-Final{
+    background: url('../../../../Assets/PF\ henry.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+  }
+  .Portfolio_img{
+    background: url('../../../../Assets/portfolio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+  }
+  .Projects_img{
+    background: url('../../../../Assets/Mis\ Proyectos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  .Project-Day1-img{
+    background: url('../../../../Assets/day1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  .Project-Day2-img{
+    background: url('../../../../Assets/day2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  .Project-Day3-img{
+    background: url('../../../../Assets/day3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  .Project-Day4-img{
+    background: url('../../../../Assets/day4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }

@@ -1,0 +1,76 @@
+.Div__Day1__Container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+.Day1__Container{
+    display: flex;
+    width: 100%;
+}
+
+.Day1__panel-divs-1{
+    background-image: url('https://images6.alphacoders.com/326/326020.jpg');
+}
+.Day1__panel-divs-2 {
+    background-image: url('https://images2.alphacoders.com/102/102970.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Day1__panel-divs-3{
+    background-image: url('https://images3.alphacoders.com/102/102135.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Day1__panel-divs-4{
+    background-image: url('https://images.alphacoders.com/103/103533.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Day1__panel-divs-5{
+    background-image: url('https://images5.alphacoders.com/331/331193.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Day1__panel-divs{
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+}
+.Day1__panel-divs h3{
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+.Day1__panel-divs.active{
+    flex: 5;
+}
+.Day1__panel-divs.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+@media (max-width :480px){
+    .Day1__Container{
+        width: 100%;
+    }
+    .Day1__panel-divs-4,
+    .Day1__panel-divs-5{
+        display: none;
+    }
+}
+

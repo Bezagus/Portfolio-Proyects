@@ -1,0 +1,33 @@
+.About__Container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.About__img img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 25%;
+    border-radius: 50%;
+}
+.About__Description{
+    color: #fff;
+    margin: 0 10%;
+}
+.About__Description p{
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 920px) {
+    .About__Container{
+        flex-direction: column;
+    }
+    .About__img img{
+        margin: 10% 0;
+    }
+    .About__Description{
+        margin-bottom: 8%;
+    }
+}
