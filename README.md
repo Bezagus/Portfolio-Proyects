@@ -28,7 +28,7 @@ Son Diversos Proyectos con diferentec complejidades, pero es para mostrar mi pra
 
 ## Imagenes Prototipo
 - Link: https://portfolio-proyects.vercel.app/
-<img src="./Img Readme/Prot-Proyect-Home" alt='Portfolio'/>
-<img src="./Img Readme/Prot-Proyect-Proyects" alt='Portfolio'/>
-<img src="./Img Readme/Prot-Proyect-About" alt='Portfolio'/>
-<img src="./Img Readme/Prot-Proyect-Proyect1" alt='Portfolio'/>
+<img src="./Img Readme/Prot-Proyect-Home.jpg" alt='Portfolio'/>
+<img src="./Img Readme/Prot-Proyect-Proyects.jpg" alt='Portfolio'/>
+<img src="./Img Readme/Prot-Proyect-About.jpg" alt='Portfolio'/>
+<img src="./Img Readme/Prot-Proyect-Proyect1.jpg" alt='Portfolio'/>
