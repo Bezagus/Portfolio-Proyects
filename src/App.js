@@ -5,6 +5,8 @@ import Day1 from './Components/Projects/Day1/Day1.jsx';
 import Day2 from './Components/Projects/Day2/Day2.jsx';
 import Day3 from './Components/Projects/Day3/Day3.jsx';
 import Day4 from './Components/Projects/Day4/Day4.jsx';
+import AnalogClock from './Components/Projects/Day5/Day5.jsx';
+import Day5 from './Components/Projects/Day5/Day5.jsx';
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route exact path='/Progress-Steps' element={<Day2/>}/>
         <Route exact path='/Rotating-Navigation' element={<Day3/>}/>
         <Route exact path='/Hidden-Search' element={<Day4/>}/>
+        <Route exact path='*' element={<Day5/>}/>
       </Routes>
     </BrowserRouter>
   );
